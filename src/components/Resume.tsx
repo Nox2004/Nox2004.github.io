@@ -14,7 +14,7 @@ function Resume() {
                 <h1 className='wavey-translate-y'>{t("resume.message1")}</h1>
                 <h2>{t("resume.message2")}</h2>
             </div>
-            <a href={"/src/assets/resume/"+t("resume.cv-file-name")} className='cv' download>
+            <a href={"assets/resume/"+t("resume.cv-file-name")} className='cv' download>
                 <h2>{t("resume.message3")}</h2>
                 <i className="fa-solid fa-file-pdf"></i>
             </a>

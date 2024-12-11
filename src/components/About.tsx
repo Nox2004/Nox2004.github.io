@@ -17,14 +17,10 @@ function About() {
 
             <div className = "about-me-and-image">
             
-                {/* <div className = "about-me"> */}
                 <h4>{t("about.about-me.pre-age") + 
                 Math.floor((new Date().getTime() - new Date("2004-11-09").getTime())/(1000*60*60*24*365.25)) +
                 t("about.about-me.post-age")}</h4>
-                <div className='image-container'><img src="/src/assets/images/my_photo.jpeg" /> </div>
-                {/* </div> */}
-                {/* <div className = "about-image">
-                    <img src="/src/assets/images/profile.jpg" /> */}
+                <div className='image-container'><img src="assets/images/my_photo.jpeg" /> </div>
             </div>
 
             <div className="lists"> 

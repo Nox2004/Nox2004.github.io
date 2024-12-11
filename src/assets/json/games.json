@@ -4,7 +4,7 @@
             "title" : "games.toys-and-signs.title",
             "description" : "games.toys-and-signs.description",
             "short-description" : "games.toys-and-signs.short-description",
-            "image" : "/src/assets/images/game_thumbs/toys_and_signs.png",
+            "image" : "assets/images/game_thumbs/toys_and_signs.png",
             "url" : "https://nox2004.itch.io/toys-n-signs",
             "date" : "games.toys-and-signs.date",
             "tags" : ["game-tags.unity", "game-tags.mobile", "game-tags.college", "game-tags.educational", "game-tags.3d", "game-tags.ui"]
@@ -13,7 +13,7 @@
             "title" : "games.nuts-and-bolts.title",
             "description" : "games.nuts-and-bolts.description",
             "short-description" : "games.nuts-and-bolts.short-description",
-            "image" : "/src/assets/images/game_thumbs/nuts_and_bolts.png",
+            "image" : "assets/images/game_thumbs/nuts_and_bolts.png",
             "url" : "https://drive.google.com/uc?export=download&id=1mfeHY_JvrvyvI6speXT73wM3xRe72yi2",
             "date" : "games.nuts-and-bolts.date",
             "tags" : ["game-tags.unity", "game-tags.pc", "game-tags.college", "game-tags.multiplayer", "game-tags.ui"]
@@ -22,7 +22,7 @@
             "title" : "games.untitled-space-shooter-game.title",
             "description" : "games.untitled-space-shooter-game.description",
             "short-description" : "games.untitled-space-shooter-game.short-description",
-            "image" : "/src/assets/images/game_thumbs/untitled_shooter.png",
+            "image" : "assets/images/game_thumbs/untitled_shooter.png",
             "url" : "https://gx.games/games/nes7cw/untitled-space-shooter-game/",
             "date" : "games.untitled-space-shooter-game.date",
             "tags" : ["game-tags.gamemaker", "game-tags.pc", "game-tags.personal-project", "game-tags.multiplayer"]
@@ -31,7 +31,7 @@
             "title" : "games.roll-your-life.title",
             "description" : "games.roll-your-life.description",
             "short-description" : "games.roll-your-life.short-description",
-            "image" : "/src/assets/images/game_thumbs/roll_your_life.png",
+            "image" : "assets/images/game_thumbs/roll_your_life.png",
             "url" : "https://bob-the-game-dev.itch.io/roll-your-life",
             "date" : "games.roll-your-life.date",
             "tags" : ["game-tags.gamemaker", "game-tags.pc", "game-tags.game-jam", "game-tags.game-design", "game-tags.ui"]
@@ -40,7 +40,7 @@
             "title" : "games.my-happy-planet.title",
             "description" : "games.my-happy-planet.description",
             "short-description" : "games.my-happy-planet.short-description",
-            "image" : "src/assets/images/game_thumbs/my_happy_planet.png",
+            "image" : "assets/images/game_thumbs/my_happy_planet.png",
             "url" : "https://nox2004.itch.io/my-happy-planet",
             "date" : "games.my-happy-planet.date",
             "tags" : ["game-tags.unity", "game-tags.pc", "game-tags.college", "game-tags.educational", "game-tags.3d"]
@@ -49,7 +49,7 @@
             "title" : "games.hey-brother.title",
             "description" : "games.hey-brother.description",
             "short-description" : "games.hey-brother.short-description",
-            "image" : "src/assets/images/game_thumbs/hey_brother.png",
+            "image" : "assets/images/game_thumbs/hey_brother.png",
             "url" : "https://bob-the-game-dev.itch.io/hey-brother",
             "date" : "games.hey-brother.date",
             "tags" : ["game-tags.gamemaker", "game-tags.pc", "game-tags.game-jam", "game-tags.game-design", "game-tags.gameplay-engeneering"]
@@ -58,7 +58,7 @@
             "title" : "games.drinking-water-midnight.title",
             "description" : "games.drinking-water-midnight.description",
             "short-description" : "games.drinking-water-midnight.short-description",
-            "image" : "src/assets/images/game_thumbs/drinking_water.png",
+            "image" : "assets/images/game_thumbs/drinking_water.png",
             "url" : "https://gamejolt.com/games/meia_noite/660730",
             "date" : "games.drinking-water-midnight.date",
             "tags" : ["game-tags.gamemaker", "game-tags.pc", "game-tags.personal-project", "game-tags.solo"]
@@ -67,7 +67,7 @@
             "title" : "games.space-invaders-3-0.title",
             "description" : "games.space-invaders-3-0.description",
             "short-description" : "games.space-invaders-3-0.short-description",
-            "image" : "src/assets/images/game_thumbs/space_invaders_3.png",
+            "image" : "assets/images/game_thumbs/space_invaders_3.png",
             "url" : "https://gamejolt.com/games/space_invaders_3/607792",
             "date" : "games.space-invaders-3-0.date",
             "tags" : ["game-tags.gamemaker", "game-tags.pc", "game-tags.personal-project", "game-tags.solo", "game-tags.gameplay-engeneering"]
@@ -76,7 +76,7 @@
             "title" : "games.the-unknown.title",
             "description" : "games.the-unknown.description",
             "short-description" : "games.the-unknown.short-description",
-            "image" : "src/assets/images/game_thumbs/the_unknown.png",
+            "image" : "assets/images/game_thumbs/the_unknown.png",
             "url" : "https://gamejolt.com/games/desconhecido/571638",
             "date" : "games.the-unknown.date",
             "tags" : ["game-tags.gamemaker", "game-tags.pc", "game-tags.game-jam", "game-tags.game-design", "game-tags.ui"]
@@ -85,7 +85,7 @@
             "title" : "games.sinuca-attack-console.title",
             "description" : "games.sinuca-attack-console.description",
             "short-description" : "games.sinuca-attack-console.short-description",
-            "image" : "src/assets/images/game_thumbs/sinuca_attack_console.png",
+            "image" : "assets/images/game_thumbs/sinuca_attack_console.png",
             "url" : "https://store.playstation.com/pt-br/product/UP2005-PPSA06054_00-SINUCA0000000000",
             "date" : "games.sinuca-attack-console.date",
             "tags" : ["game-tags.gamemaker", "game-tags.console", "game-tags.game-design"]
@@ -94,7 +94,7 @@
             "title" : "games.sinuca-attack.title",
             "description" : "games.sinuca-attack.description",
             "short-description" : "games.sinuca-attack.short-description",
-            "image" : "src/assets/images/game_thumbs/sinuca_attack_jam.png",
+            "image" : "assets/images/game_thumbs/sinuca_attack_jam.png",
             "url" : "https://gamejolt.com/games/sinuca_attack/477646",
             "date" : "games.sinuca-attack.date",
             "tags" : ["game-tags.gamemaker", "game-tags.pc", "game-tags.game-jam", "game-tags.game-design", "game-tags.gameplay-engeneering"]
@@ -103,7 +103,7 @@
             "title" : "games.evolutron.title",
             "description" : "games.evolutron.description",
             "short-description" : "games.evolutron.short-description",
-            "image" : "src/assets/images/game_thumbs/evolutron.png",
+            "image" : "assets/images/game_thumbs/evolutron.png",
             "url" : "https://gamejolt.com/games/EvolutronRevolution/513907",
             "date" : "games.evolutron.date",
             "tags" : ["game-tags.gamemaker", "game-tags.pc", "game-tags.game-jam", "game-tags.game-design", "game-tags.procedural-generation"]
@@ -112,7 +112,7 @@
             "title" : "games.space-invaders-2.title",
             "description" : "games.space-invaders-2.description",
             "short-description" : "games.space-invaders-2.short-description",
-            "image" : "src/assets/images/game_thumbs/space_invaders_2.png",
+            "image" : "assets/images/game_thumbs/space_invaders_2.png",
             "url" : "https://drive.google.com/uc?export=download&id=1N5OLF6JvYuG0GSExFafr3vIj2M0ghFKA",
             "date" : "games.space-invaders-2.date",
             "tags" : ["game-tags.gamemaker", "game-tags.pc", "game-tags.personal-project", "game-tags.solo"]
@@ -121,7 +121,7 @@
             "title" : "games.31-days-after.title",
             "description" : "games.31-days-after.description",
             "short-description" : "games.31-days-after.short-description",
-            "image" : "src/assets/images/game_thumbs/31_days.png",
+            "image" : "assets/images/game_thumbs/31_days.png",
             "url" : "https://gamejolt.com/games/31DaysAfterTheEndOfTheWorld/427822",
             "date" : "games.31-days-after.date",
             "tags" : ["game-tags.gamemaker", "game-tags.pc", "game-tags.game-jam", "game-tags.game-design", "game-tags.solo"]
@@ -130,7 +130,7 @@
             "title" : "games.flappy-penguin.title",
             "description" : "games.flappy-penguin.description",
             "short-description" : "games.flappy-penguin.short-description",
-            "image" : "src/assets/images/game_thumbs/flappy_penguin.png",
+            "image" : "assets/images/game_thumbs/flappy_penguin.png",
             "url" : "https://drive.google.com/uc?export=download&id=1tn4hvCtLiw8Hjdx8sQjJpSRf5N4n0-cN",
             "date" : "games.flappy-penguin.date",
             "tags" : ["game-tags.gamemaker", "game-tags.pc", "game-tags.personal-project", "game-tags.solo"]

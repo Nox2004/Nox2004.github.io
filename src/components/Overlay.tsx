@@ -24,7 +24,7 @@ function Overlay( { changeSection } : { changeSection : (newSection : string) =>
     }
 
     const getFlagSrc = (languageKey : string) => {
-        return `src/assets/images/flags/${languageKey}.svg`
+        return `assets/images/flags/${languageKey}.svg`
     }
     
     const [mousOverHeader, setMouseOverHeader] = useState(false);
