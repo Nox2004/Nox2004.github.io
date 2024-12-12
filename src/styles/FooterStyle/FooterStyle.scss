@@ -30,7 +30,7 @@
             position: relative;
             display: block;
             width: calc(122% + 1.3px);
-            height: 31px;
+            height: 50px;
         }
         
         .shape-fill {
@@ -90,6 +90,17 @@
             text-shadow : -0.2rem 0.2rem var(--accent-color-3);
 
             font-size: 3rem;
+
+            @media (max-width: 968px) {
+                font-size: 2.5rem;
+            }
+
+            @media (max-width: 668px) {
+                font-size: 2rem;
+            }
+
+            
+
             transition: transform 0.2s ease-out;
             &:hover
             {

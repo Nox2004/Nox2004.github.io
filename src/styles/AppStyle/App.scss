@@ -55,7 +55,7 @@ h6 {
   margin: 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1168px) {
   h1 {
     font-size: 4rem;
   }
@@ -76,24 +76,45 @@ h6 {
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 992px) {
   h1 {
-    font-size: 3rem;
+    font-size: 3.3rem;
   }
   h2 {
-    font-size: 2rem;
+    font-size: 2.2rem;
   }
   h3 {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
   }
   h4 {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
   }
   h5 {
-    font-size: 0.875rem;
+    font-size: 1rem;
   }
   h6 {
-    font-size: 0.75rem;
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 2.6rem;
+  }
+  h2 {
+    font-size: 1.9rem;
+  }
+  h3 {
+    font-size: 1.3rem;
+  }
+  h4 {
+    font-size: 1.1rem;
+  }
+  h5 {
+    font-size: 0.8rem;
+  }
+  h6 {
+    font-size: 0.65rem;
   }
 }
 
@@ -124,7 +145,15 @@ h6 {
           font-size: 200%;
           
       }
-      text-shadow: -6px 6px var(--accent-color-1);
+      text-shadow: -0.4rem 0.4rem var(--accent-color-1);
+
+      @media (max-width: 1168px) {
+        text-shadow: -0.3rem 0.3rem var(--accent-color-1);
+      }
+      @media (max-width: 568px) {
+        text-shadow: -0.2rem 0.2rem var(--accent-color-1);
+      }
+
       margin-bottom: 1rem;
   }
   h2 {
