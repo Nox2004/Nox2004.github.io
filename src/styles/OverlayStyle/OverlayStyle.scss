@@ -30,8 +30,8 @@ header {
         transition : top 0.5s ease-out;
     }
 
-    $dark-mode-button-size-min: 15vh;
-    $dark-mode-button-size-max: 20vh;
+    $dark-mode-button-size-min: 11rem;
+    $dark-mode-button-size-max: 14rem;
 
     --line-height: $dark-mode-button-size-min;
     @keyframes dark-mode-button-animation {
@@ -243,7 +243,7 @@ header {
             position: fixed;
             left: 0;
             
-            height : 10vh;
+            height : 16vmin;
             aspect-ratio: 1/1;
             
             bottom: 10vh;
@@ -259,19 +259,33 @@ header {
 
             .language-options
             {
+                flex-direction: row;
+                gap: 1vw;
+                height: 100%;
+                width: auto;
+
                 top:auto;
-                bottom: 100%;
-                padding-top: 1vh;
-                padding-bottom: 1vh;
+                bottom: auto;
+                padding-top: 0vh;
+                padding-bottom: 0vh;
+                padding-left: 0.5rem;
+                padding-right: 0.5rem;
 
                 border-radius: 1vh;
-
-                transform: translateX(0%);
+                
+                transform-origin: left;
+                transform: translateX(-100%);
                 transition: transform 0.25s ease-out 0s;
+
+                .language-option
+                {
+                    width: auto;
+                    height: 70%;
+                }
                 
                 &.active
                 {
-                    transform: translateX(-100%);
+                    transform: translateX(16vmin);
                 }
             }
         }
