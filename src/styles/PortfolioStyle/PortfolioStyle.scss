@@ -27,12 +27,19 @@
 
             .curve 
             {
-                transform: scaleY(-1);
+                transform: scaleY(-1) translateY(-1px);
+                
                 .shape-fill
                 {
                     fill: var(--accent-color-3);
                 }
             }
+
+            &::before
+            {
+                background-color: var(--accent-color-3);
+            }
+            
 
             .game 
             {
@@ -54,7 +61,7 @@
                     h3
                     {
                         color : var(--primary-color-1);
-                        text-shadow: var(--accent-color-1) -0.03rem 0.3rem;
+                        text-shadow: var(--accent-color-1) -0.04vmin 0.4vmin;
                     }
 
                     h4
@@ -96,16 +103,18 @@
             width: 100%;
             overflow: hidden;
             line-height: 0;
-            transform: rotate(180deg);
-            transform-origin: 50% calc(50% + 0.5px);
+            transform: rotate(180deg) translateY(-1px);
+            transform-origin: 50% 50%;
+
             svg {
                 position: relative;
                 display: block;
                 width: calc(100% + 1.3px);
-                height: 31px;
+                height: 6vmin;
             }
             .shape-fill {
                 fill: var(--background-color);
+                
             }
         }
 
@@ -134,7 +143,7 @@
                     text-align: center;
 
                     color : var(--primary-color-1);
-                    text-shadow: var(--accent-color-1) -0.03rem 0.3rem;
+                    text-shadow: var(--accent-color-1) -0.04vmin 0.4vmin;
 
                     margin-bottom: 1rem;
                 }

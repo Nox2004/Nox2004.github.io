@@ -116,11 +116,12 @@ header {
             width: 100%;
             overflow: hidden;
             line-height: 0;
+            transform: translateY(-1px);
             svg {
                 position: relative;
                 display: block;
                 width: calc(127% + 1.3px);
-                height: 42px;
+                height: 4vmin;
             }
             .shape-fill {
                 fill: var(--accent-color-2);
@@ -130,7 +131,7 @@ header {
         .section
         {
             color: var(--primary-color-2);
-            text-shadow: var(--accent-color-3) 0 0.3rem;
+            text-shadow: var(--accent-color-3) 0 0.35vh;
 
             &.active
             {
