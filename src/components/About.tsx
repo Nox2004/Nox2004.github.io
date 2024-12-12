@@ -6,7 +6,7 @@ function About() {
 
     const { t } = useTranslation("global");
 
-    //get data from the games.json file
+    ///get data from the games.json file
 
     return (
         <>
