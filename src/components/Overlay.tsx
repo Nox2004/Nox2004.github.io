@@ -54,8 +54,6 @@ function Overlay( { changeSection } : { changeSection : (newSection : string) =>
             }
             
             setHeaderAppearAnimationTimer(timer);
-
-            console.log(headerAppearAnimationTimer);
         }
         , updateHeaderTime*1000);
         

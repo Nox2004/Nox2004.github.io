@@ -22,13 +22,13 @@ header {
     top: 0;
     &.scrolling
     {
-        transform: translateY(0);
-        transition : top 0.25s ease-out 0s;
+        transform: translateY(0%);
+        transition : transform 0.25s ease-out 0s;
     }
     &.not-scrolling
     {
         transform: translateY(-100%);
-        transition : top 0.5s ease-out;
+        transition : transform 0.5s ease-out;
     }
 
     $dark-mode-button-size-min: 11rem;
