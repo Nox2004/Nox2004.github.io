@@ -34,16 +34,14 @@
         color: var(--primary-color-2);
         white-space: nowrap;
         text-shadow: none;
-        margin-bottom: 1rem;
     }
 
     i 
     {
         display: block;
-        font-size: 5rem;
+        font-size: max(8vmin,2.5rem);
         color: var(--primary-color-2);
 
-        margin-bottom: 0.5rem;
 
         transition: 0.2s ease-out;
         z-index: 2;

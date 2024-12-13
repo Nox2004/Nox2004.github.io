@@ -124,13 +124,24 @@ h6 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  gap: 2vmin;
 
   width: 90vw;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 10vh;
-  margin-bottom: 7vh;
+  margin-bottom: 5.5vmin;
+
+  margin-top: 4.5rem;
+
+  @media (max-width: 1100px)
+  {
+    margin-top: 4rem;
+  }
+
+  @media (max-width: 800px)
+  {
+    margin-top: 3.5rem;
+  }
 
   position:relative;
   top: 0;
