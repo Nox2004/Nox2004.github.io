@@ -19,14 +19,15 @@ header {
         height : 3.5rem;
     }
 
+    top: 0;
     &.scrolling
     {
-        top: 0vh;
+        transform: translateY(0);
         transition : top 0.25s ease-out 0s;
     }
     &.not-scrolling
     {
-        top: -100%;
+        transform: translateY(-100%);
         transition : top 0.5s ease-out;
     }
 
