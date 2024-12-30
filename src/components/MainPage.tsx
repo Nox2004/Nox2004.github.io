@@ -9,7 +9,20 @@ function MainPage() {
     const { t } = useTranslation("global");
 
     //games selection is a array of 8 games
-    const gameSelection = gamesFile.games.slice(0, 8);
+
+    let count = 0;
+    const number_of_games = 8;
+    const gameSelection = [];
+    
+    for (let i = 0; i < gamesFile.games.length; i++)
+    {
+        if (gamesFile.games[i].url == "") continue;
+        
+        gameSelection.push(gamesFile.games[i])       
+        count++;
+
+        if (count >= number_of_games) break;
+    }
 
     return (
         <>

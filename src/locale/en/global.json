@@ -32,6 +32,18 @@
             "short-description" : "Mini-description",
             "date" : "May 2020"
         },
+        "heirs-of-shadow" : {
+            "title" : "Heirs of Shadow",
+            "description" : "The Heirs of Shadow project is a RPG game I'm working on with a group of alumni from my college. It's a Action RPG where you wil be able with 5 different characters, each one presenting completly different mechanics and its unique way to experience the game's world. It's a more ambitious project, still on development.",
+            "short-description" : "RPG",
+            "date" : "On Development"
+        },
+        "truck-game" : {
+            "title" : "Not a Truck Game",
+            "description" : "O 'Not a truck game' (não é um nome oficial) é um jogo de terror onde você se se encontra no papel de um caminhoneiro fazendo entregas para uma empresa suspeita, enquanto tenta sobreviver a ataques de criptídeos e outras entidades misteriosas. Comecei a trabalhar em este projeto com alguns amigos por volta de setembro de 2024, e colocaremos um link de Demo abaixo assim que tivermos uma para mostrar.",
+            "short-description" : "Horror Game",
+            "date" : "On Development"
+        },
         "toys-and-signs" : {
             "title" : "Toys n' Signs",
             "description" : "The Toys n' Signs project is a mobile game that aims to teach different Sign Languages (e.g. libras) to children using a fun and ludic 'shooter' approach. The gameplay revolves around choosing and combining upgrades that you receive upon answering quizzes on sign language. It was made during the course of 6 months as an academic project.",
@@ -137,6 +149,7 @@
         "game-design" : "Game Design",
         "gameplay-engeneering" : "Gameplay Engineering",
         "unity": "Unity",
+        "unreal": "Unreal Engine",
         "gamemaker": "GameMaker",
         "godot": "Godot",
         "game-jam": "Game Jam",

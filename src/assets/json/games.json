@@ -1,6 +1,24 @@
 {
     "games" : [
         {
+            "title" : "games.heirs-of-shadow.title",
+            "description" : "games.heirs-of-shadow.description",
+            "short-description" : "games.heirs-of-shadow.short-description",
+            "image" : "assets/images/game_thumbs/heirs_of_shadow.png",
+            "url" : "",
+            "date" : "games.heirs-of-shadow.date",
+            "tags" : ["game-tags.unreal", "game-tags.pc", "game-tags.game-design", "game-tags.3d"]
+        },
+        {
+            "title" : "games.truck-game.title",
+            "description" : "games.truck-game.description",
+            "short-description" : "games.truck-game.short-description",
+            "image" : "assets/images/game_thumbs/truck_game.png",
+            "url" : "",
+            "date" : "games.truck-game.date",
+            "tags" : ["game-tags.unity", "game-tags.pc", "game-tags.game-design", "game-tags.3d", "game-tags.ui"]
+        },
+        {
             "title" : "games.toys-and-signs.title",
             "description" : "games.toys-and-signs.description",
             "short-description" : "games.toys-and-signs.short-description",

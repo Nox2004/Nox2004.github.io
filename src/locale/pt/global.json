@@ -32,6 +32,18 @@
             "short-description" : "Mini-descricao",
             "date" : "Maio 2020"
         },
+        "heirs-of-shadow" : {
+            "title" : "Heirs of Shadow",
+            "description" : "O projeto Toys n' Signs é um jogo mobile que tem como objetivo ensinar diferentes línguas de sinais (por exemplo, libras) para crianças usando uma abordagem divertida e lúdica de 'shooter'. A jogabilidade gira em torno de escolher e combinar atualizações que você recebe ao responder quizzes sobre linguagem de sinais. O projeto foi feito ao longo de 6 meses como um projeto acadêmico.",
+            "short-description" : "RPG",
+            "date" : "Em Desenvolvimento"
+        },
+        "truck-game" : {
+            "title" : "Not a Truck Game",
+            "description" : "O projeto Toys n' Signs é um jogo mobile que tem como objetivo ensinar diferentes línguas de sinais (por exemplo, libras) para crianças usando uma abordagem divertida e lúdica de 'shooter'. A jogabilidade gira em torno de escolher e combinar atualizações que você recebe ao responder quizzes sobre linguagem de sinais. O projeto foi feito ao longo de 6 meses como um projeto acadêmico.",
+            "short-description" : "Jogo de Terror",
+            "date" : "Em Desenvolvimento"
+        },
         "toys-and-signs" : {
             "title" : "Toys n' Signs",
             "description" : "O projeto Toys n' Signs é um jogo mobile que tem como objetivo ensinar diferentes línguas de sinais (por exemplo, libras) para crianças usando uma abordagem divertida e lúdica de 'shooter'. A jogabilidade gira em torno de escolher e combinar atualizações que você recebe ao responder quizzes sobre linguagem de sinais. O projeto foi feito ao longo de 6 meses como um projeto acadêmico.",
@@ -131,6 +143,7 @@
         "game-design" : "Game Design",
         "gameplay-engeneering" : "Engenharia de Gameplay",
         "unity": "Unity",
+        "unreal": "Unreal Engine",
         "gamemaker": "GameMaker",
         "godot": "Godot",
         "game-jam": "Game Jam",
