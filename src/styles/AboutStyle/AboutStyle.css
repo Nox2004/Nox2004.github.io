@@ -1,1 +1,114 @@
-:root{--background-color: #03B5E5;--primary-color-1: #E6D40B;--primary-color-2: #bea815;--accent-color-1: #385C66;--accent-color-2: #374E91;--accent-color-3: #0e2c7e}.dark-mode{--background-color: #000023;--primary-color-1: #f08626;--primary-color-2: #e13308;--accent-color-1: #b4508d;--accent-color-2: #830894;--accent-color-3: #520684}@font-face{font-family:"Lexend";src:url("/src/assets/fonts/Lexend-Bold.ttf")}.about-me-and-image{width:90vw;margin-left:auto;margin-right:auto;display:flex;flex-direction:row;justify-content:center;align-items:center;gap:2rem;margin-bottom:9vmin;background-color:var(--accent-color-2);padding:1vw;border-radius:2rem;box-shadow:0rem 1rem var(--accent-color-3);overflow:hidden}.about-me-and-image svg{z-index:-3;position:absolute;width:100%;height:100%}.about-me-and-image svg rect{width:100%;height:100%;fill:none}.about-me-and-image svg path{fill:var(--accent-color-2)}.about-me-and-image h4{color:var(--primary-color-1);text-shadow:var(--accent-color-3) -0.3vmin .3vmin;text-align:center;display:flex;align-items:center}.about-me-and-image .image-container{position:relative;width:25vw;flex-shrink:0;aspect-ratio:1/1;border-radius:50%;overflow:hidden;border:1rem solid var(--primary-color-1);box-shadow:1rem 1rem var(--accent-color-3)}.about-me-and-image .image-container img{width:100%;height:100%}@media(max-width: 1300px){.about-me-and-image{flex-direction:column-reverse;gap:2rem}.about-me-and-image .image-container{width:40vw}}.lists{width:90vw;margin-left:auto;margin-right:auto;display:flex;flex-direction:row;flex-wrap:wrap;justify-content:center;align-items:top;gap:4rem;margin-bottom:9vmin}.lists .list{width:max(40vw,35rem);display:flex;flex-direction:column;gap:1rem}.lists .list h3{color:var(--primary-color-1);text-shadow:var(--accent-color-1) -0.3vmin .3vmin}.lists .list h4{position:relative;color:var(--accent-color-2)}.lists .list h4::before{content:"• ";color:var(--accent-color-3)}
+@charset "UTF-8";
+:root {
+  --background-color: #03B5E5;
+  --primary-color-1: #E6D40B;
+  --primary-color-2: #bea815;
+  --accent-color-1: #385C66;
+  --accent-color-2: #374E91;
+  --accent-color-3: #0e2c7e;
+}
+
+.dark-mode {
+  --background-color: #000023;
+  --primary-color-1: #f08626;
+  --primary-color-2: #e13308;
+  --accent-color-1: #b4508d;
+  --accent-color-2: #830894;
+  --accent-color-3: #520684;
+}
+
+@font-face {
+  font-family: "Lexend";
+  src: url("/src/assets/fonts/Lexend-Bold.ttf");
+}
+.about-me-and-image {
+  width: 90vw;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 9vmin;
+  background-color: var(--accent-color-2);
+  padding: 1vw;
+  border-radius: 2rem;
+  box-shadow: 0rem 1rem var(--accent-color-3);
+  overflow: hidden;
+}
+.about-me-and-image svg {
+  z-index: -3;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.about-me-and-image svg rect {
+  width: 100%;
+  height: 100%;
+  fill: none;
+}
+.about-me-and-image svg path {
+  fill: var(--accent-color-2);
+}
+.about-me-and-image h4 {
+  color: var(--primary-color-1);
+  text-shadow: var(--accent-color-3) -0.3vmin 0.3vmin;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.about-me-and-image .image-container {
+  position: relative;
+  width: 25vw;
+  flex-shrink: 0;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1rem solid var(--primary-color-1);
+  box-shadow: 1rem 1rem var(--accent-color-3);
+}
+.about-me-and-image .image-container img {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 1300px) {
+  .about-me-and-image {
+    flex-direction: column-reverse;
+    gap: 2rem;
+  }
+  .about-me-and-image .image-container {
+    width: 40vw;
+  }
+}
+.lists {
+  width: 90vw;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: top;
+  gap: 4rem;
+  margin-bottom: 9vmin;
+}
+.lists .list {
+  width: max(40vw, 35rem);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.lists .list h3 {
+  color: var(--primary-color-1);
+  text-shadow: var(--accent-color-1) -0.3vmin 0.3vmin;
+}
+.lists .list h4 {
+  position: relative;
+  color: var(--accent-color-2);
+}
+.lists .list h4::before {
+  content: "• ";
+  color: var(--accent-color-3);
+}/*# sourceMappingURL=AboutStyle.css.map */

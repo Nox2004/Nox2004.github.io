@@ -1,1 +1,227 @@
-:root{--background-color: #03B5E5;--primary-color-1: #E6D40B;--primary-color-2: #bea815;--accent-color-1: #385C66;--accent-color-2: #374E91;--accent-color-3: #0e2c7e}.dark-mode{--background-color: #000023;--primary-color-1: #f08626;--primary-color-2: #e13308;--accent-color-1: #b4508d;--accent-color-2: #830894;--accent-color-3: #520684}@font-face{font-family:"Lexend";src:url("/src/assets/fonts/Lexend-Bold.ttf")}*{transition:color .7s ease-out,background-color .7s ease-out}body{margin:0;background-color:var(--background-color);font-family:"Lexend";font-size:1rem;overflow-x:hidden}h1{font-family:"Lexend";font-weight:bold;font-size:4rem;margin:0}h2{font-family:"Lexend";font-weight:bold;font-size:2.5rem;margin:0}h3{font-family:"Lexend";font-weight:bold;font-size:2rem;margin:0}h4{font-family:"Lexend";font-weight:bold;font-size:1.5rem;margin:0}h5{font-family:"Lexend";font-weight:bold;font-size:1.2rem;margin:0}h6{font-family:"Lexend";font-weight:bold;font-size:1rem;margin:0}@media(max-width: 1168px){h1{font-size:2.5rem}h2{font-size:2.2rem}h3{font-size:1.8rem}h4{font-size:1.4rem}h5{font-size:1rem}h6{font-size:.8rem}}@media(max-width: 992px){h1{font-size:2.4rem}h2{font-size:1.8rem}h3{font-size:1.5rem}h4{font-size:1.3rem}h5{font-size:1rem}h6{font-size:.8rem}}@media(max-width: 576px){h1{font-size:2rem}h2{font-size:1.7rem}h3{font-size:1.4rem}h4{font-size:1.1rem}h5{font-size:.8rem}h6{font-size:.6rem}}.page-header{display:flex;flex-direction:column;justify-content:center;align-items:center;gap:2vmin;width:90vw;margin-left:auto;margin-right:auto;margin-bottom:5.5vmin;margin-top:4.5rem;position:relative;top:0;left:0}@media(max-width: 1100px){.page-header{margin-top:4rem}}@media(max-width: 800px){.page-header{margin-top:3.5rem}}.page-header h1{color:var(--primary-color-1);text-align:center;text-shadow:-0.4rem .4rem var(--accent-color-1);margin-bottom:1rem}.page-header h1 span{font-size:200%}@media(max-width: 1168px){.page-header h1{text-shadow:-0.3rem .3rem var(--accent-color-1)}}@media(max-width: 568px){.page-header h1{text-shadow:-0.2rem .2rem var(--accent-color-1)}}.page-header h2{color:var(--accent-color-1);text-align:center}
+:root {
+  --background-color: #03B5E5;
+  --primary-color-1: #E6D40B;
+  --primary-color-2: #bea815;
+  --accent-color-1: #385C66;
+  --accent-color-2: #374E91;
+  --accent-color-3: #0e2c7e;
+}
+
+.dark-mode {
+  --background-color: #000023;
+  --primary-color-1: #f08626;
+  --primary-color-2: #e13308;
+  --accent-color-1: #b4508d;
+  --accent-color-2: #830894;
+  --accent-color-3: #520684;
+}
+
+@font-face {
+  font-family: "Lexend";
+  src: url("/src/assets/fonts/Lexend-Bold.ttf");
+}
+* {
+  transition: color 0.7s ease-out, background-color 0.7s ease-out;
+}
+
+body {
+  margin: 0;
+  background-color: var(--background-color);
+  font-family: "Lexend";
+  font-size: 1rem;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+h1 {
+  font-family: "Lexend";
+  font-weight: bold;
+  font-size: 5rem;
+  margin: 0;
+}
+
+h2 {
+  font-family: "Lexend";
+  font-weight: bold;
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+h3 {
+  font-family: "Lexend";
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 0;
+}
+
+h4 {
+  font-family: "Lexend";
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+h5 {
+  font-family: "Lexend";
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+h6 {
+  font-family: "Lexend";
+  font-weight: bold;
+  font-size: 1rem;
+  margin: 0;
+}
+
+@media (max-width: 1168px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+  h2 {
+    font-size: 2.2rem;
+  }
+  h3 {
+    font-size: 1.8rem;
+  }
+  h4 {
+    font-size: 1.4rem;
+  }
+  h5 {
+    font-size: 1rem;
+  }
+  h6 {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 992px) {
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 1.8rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+  h4 {
+    font-size: 1.3rem;
+  }
+  h5 {
+    font-size: 1rem;
+  }
+  h6 {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 576px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 1.7rem;
+  }
+  h3 {
+    font-size: 1.4rem;
+  }
+  h4 {
+    font-size: 1.1rem;
+  }
+  h5 {
+    font-size: 0.8rem;
+  }
+  h6 {
+    font-size: 0.6rem;
+  }
+}
+.page-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2vmin;
+  width: 90vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5.5vmin;
+  margin-top: 4.5rem;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+@media (max-width: 1100px) {
+  .page-header {
+    margin-top: 4rem;
+  }
+}
+@media (max-width: 800px) {
+  .page-header {
+    margin-top: 3.5rem;
+  }
+}
+.page-header h1 {
+  color: var(--primary-color-1);
+  text-align: center;
+  text-shadow: -0.4rem 0.4rem var(--accent-color-1);
+  margin-bottom: 1rem;
+}
+.page-header h1 span {
+  font-size: 200%;
+}
+@media (max-width: 1168px) {
+  .page-header h1 {
+    text-shadow: -0.3rem 0.3rem var(--accent-color-1);
+  }
+}
+@media (max-width: 568px) {
+  .page-header h1 {
+    text-shadow: -0.2rem 0.2rem var(--accent-color-1);
+  }
+}
+.page-header h2 {
+  color: var(--accent-color-1);
+  text-align: center;
+}
+
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} *//*# sourceMappingURL=App.css.map */

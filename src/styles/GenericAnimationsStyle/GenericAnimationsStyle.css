@@ -1,1 +1,45 @@
-:root{--background-color: #03B5E5;--primary-color-1: #E6D40B;--primary-color-2: #bea815;--accent-color-1: #385C66;--accent-color-2: #374E91;--accent-color-3: #0e2c7e}.dark-mode{--background-color: #000023;--primary-color-1: #f08626;--primary-color-2: #e13308;--accent-color-1: #b4508d;--accent-color-2: #830894;--accent-color-3: #520684}@font-face{font-family:"Lexend";src:url("/src/assets/fonts/Lexend-Bold.ttf")}@keyframes rotation-animation{0%{rotate:-6deg}100%{rotate:6deg}}.wavey-rotation-animation{animation:rotation-animation .8s alternate infinite ease-in-out}@keyframes translate-up-animation{0%{translate:0 0}100%{translate:0 -10px}}.wavey-translate-y{animation:translate-up-animation .8s alternate infinite ease-in-out}
+:root {
+  --background-color: #03B5E5;
+  --primary-color-1: #E6D40B;
+  --primary-color-2: #bea815;
+  --accent-color-1: #385C66;
+  --accent-color-2: #374E91;
+  --accent-color-3: #0e2c7e;
+}
+
+.dark-mode {
+  --background-color: #000023;
+  --primary-color-1: #f08626;
+  --primary-color-2: #e13308;
+  --accent-color-1: #b4508d;
+  --accent-color-2: #830894;
+  --accent-color-3: #520684;
+}
+
+@font-face {
+  font-family: "Lexend";
+  src: url("/src/assets/fonts/Lexend-Bold.ttf");
+}
+@keyframes rotation-animation {
+  0% {
+    rotate: -6deg;
+  }
+  100% {
+    rotate: 6deg;
+  }
+}
+.wavey-rotation-animation {
+  animation: rotation-animation 0.8s alternate infinite ease-in-out;
+}
+
+@keyframes translate-up-animation {
+  0% {
+    translate: 0 0;
+  }
+  100% {
+    translate: 0 -10px;
+  }
+}
+.wavey-translate-y {
+  animation: translate-up-animation 0.8s alternate infinite ease-in-out;
+}/*# sourceMappingURL=GenericAnimationsStyle.css.map */

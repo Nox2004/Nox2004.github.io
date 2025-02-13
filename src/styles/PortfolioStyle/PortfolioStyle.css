@@ -1,1 +1,266 @@
-:root{--background-color: #03B5E5;--primary-color-1: #E6D40B;--primary-color-2: #bea815;--accent-color-1: #385C66;--accent-color-2: #374E91;--accent-color-3: #0e2c7e}.dark-mode{--background-color: #000023;--primary-color-1: #f08626;--primary-color-2: #e13308;--accent-color-1: #b4508d;--accent-color-2: #830894;--accent-color-3: #520684}@font-face{font-family:"Lexend";src:url("/src/assets/fonts/Lexend-Bold.ttf")}.portifolio-game-list{width:100vw;display:flex;flex-direction:column}.portifolio-game-list .portifolio-game-item-container{position:relative;padding-top:1rem;padding-bottom:4rem;width:100%;background-color:var(--background-color);transform:scale(1);transition:.3s ease-out}.portifolio-game-list .portifolio-game-item-container:hover{transform:scale(1.05)}.portifolio-game-list .portifolio-game-item-container:nth-child(even){background-color:var(--accent-color-3)}.portifolio-game-list .portifolio-game-item-container:nth-child(even) .curve{transform:scaleY(-1) translateY(-1px)}.portifolio-game-list .portifolio-game-item-container:nth-child(even) .curve .shape-fill{fill:var(--accent-color-3)}.portifolio-game-list .portifolio-game-item-container:nth-child(even)::before{background-color:var(--accent-color-3)}.portifolio-game-list .portifolio-game-item-container:nth-child(even) .game{flex-direction:row-reverse;animation:portfolio-appear-animation-left 1s ease-in-out forwards;animation-timeline:view();animation-range:0% 25%}@keyframes portfolio-appear-animation-left{from{transform:translateX(-40%)}to{transform:translateX(0%)}}.portifolio-game-list .portifolio-game-item-container:nth-child(even) .game .text{margin-left:2rem;margin-right:0}.portifolio-game-list .portifolio-game-item-container:nth-child(even) .game .text h3{color:var(--primary-color-1);text-shadow:var(--accent-color-1) -0.04vmin .4vmin}.portifolio-game-list .portifolio-game-item-container:nth-child(even) .game .text h4{color:var(--primary-color-2)}.portifolio-game-list .portifolio-game-item-container:nth-child(even) .game .image .image-wrapper{border-radius:0 1rem 1rem 0}.portifolio-game-list .portifolio-game-item-container:nth-child(even) .game .image .image-wrapper h5{right:auto;left:0rem;border-radius:0 .2rem .2rem 0}.portifolio-game-list .portifolio-game-item-container:nth-child(even) .download-button:hover i{color:var(--accent-color-3)}.portifolio-game-list .portifolio-game-item-container .curve{position:absolute;bottom:100%;left:0;width:100%;overflow:hidden;line-height:0;transform:rotate(180deg) translateY(-1px);transform-origin:50% 50%}.portifolio-game-list .portifolio-game-item-container .curve svg{position:relative;display:block;width:calc(100% + 1.3px);height:6vmin}.portifolio-game-list .portifolio-game-item-container .curve .shape-fill{fill:var(--background-color)}.portifolio-game-list .portifolio-game-item-container .game{width:90%;margin:1vh auto;display:flex;flex-direction:row;justify-content:space-between;animation:portfolio-appear-animation-right 1s ease-out forwards;animation-timeline:view();animation-range:0% 25%}@keyframes portfolio-appear-animation-right{0%{transform:translateX(40%)}100%{transform:translateX(0%)}}.portifolio-game-list .portifolio-game-item-container .game .text{margin-right:2rem;width:100%}.portifolio-game-list .portifolio-game-item-container .game .text h3{text-align:center;color:var(--primary-color-1);text-shadow:var(--accent-color-1) -0.04vmin .4vmin;margin-bottom:1rem}.portifolio-game-list .portifolio-game-item-container .game .text h4{color:var(--accent-color-2);text-align:justify}.portifolio-game-list .portifolio-game-item-container .game .text .tags{display:flex;flex-direction:row;align-content:center;justify-content:center;flex-wrap:wrap;gap:1rem;margin-top:1rem;margin-bottom:1rem;margin-left:auto;margin-right:auto}.portifolio-game-list .portifolio-game-item-container .game .text .tags h5{padding:.1rem .4rem;border-radius:2rem;background-color:var(--accent-color-2);color:var(--primary-color-1)}.portifolio-game-list .portifolio-game-item-container .game .text .tags h5:hover{transform:scale(1.05)}.portifolio-game-list .portifolio-game-item-container .game .image{position:relative;width:40vw;display:flex;align-items:center}.portifolio-game-list .portifolio-game-item-container .game .image .image-wrapper{position:relative;width:100%;aspect-ratio:4/3;border-radius:1rem}.portifolio-game-list .portifolio-game-item-container .game .image .image-wrapper img{width:100%;height:100%;-o-object-fit:cover;object-fit:cover;border-radius:1rem}.portifolio-game-list .portifolio-game-item-container .game .image .image-wrapper h5{position:absolute;right:0rem;bottom:1rem;padding:.1rem .5rem;border-radius:.2rem 0 0 .2rem;background-color:var(--accent-color-2);color:var(--primary-color-1)}.portifolio-game-list .portifolio-game-item-container .download-button{position:relative;width:max(15%,10rem);padding:.7rem 0;margin:1rem auto;border:.5rem solid var(--primary-color-1);border-radius:1rem;display:flex;justify-content:center;align-items:center;overflow:hidden;box-shadow:-0.4rem .4rem var(--primary-color-2);transition:.3s ease-out}.portifolio-game-list .portifolio-game-item-container .download-button:hover{transform:translateX(-0.3rem) translateY(0.3rem);box-shadow:-0.1rem .1rem var(--primary-color-2)}.portifolio-game-list .portifolio-game-item-container .download-button i{margin:auto auto;font-size:2rem;z-index:2;color:var(--primary-color-1);text-shadow:none;transition:.3s ease-out}.portifolio-game-list .portifolio-game-item-container .download-button .fill{position:absolute;width:100%;height:100%;background-color:var(--primary-color-1);transition:.3s ease-out;transform:scaleY(0);transform-origin:top;padding:1rem}.portifolio-game-list .portifolio-game-item-container .download-button:hover .fill{transform:scaleY(1)}.portifolio-game-list .portifolio-game-item-container .download-button:hover i{color:var(--background-color);text-shadow:0rem .2rem var(--primary-color-2)}@media(max-width: 900px){.portifolio-game-list .portifolio-game-item-container:nth-child(even) .game{flex-direction:column-reverse}.portifolio-game-list .portifolio-game-item-container:nth-child(even) .game .text{margin-left:auto;margin-right:auto}.portifolio-game-list .portifolio-game-item-container:nth-child(even) .game .text h3{text-align:center}.portifolio-game-list .portifolio-game-item-container:nth-child(even) .game .text h4{text-align:center}.portifolio-game-list .portifolio-game-item-container .game{flex-direction:column-reverse;gap:1rem}.portifolio-game-list .portifolio-game-item-container .game .text{margin-left:auto;margin-right:auto}.portifolio-game-list .portifolio-game-item-container .game .text h3{text-align:center}.portifolio-game-list .portifolio-game-item-container .game .text h4{text-align:center}.portifolio-game-list .portifolio-game-item-container .game .image{width:90vw}.portifolio-game-list .portifolio-game-item-container .game .image .image-wrapper{aspect-ratio:16/9}}
+:root {
+  --background-color: #03B5E5;
+  --primary-color-1: #E6D40B;
+  --primary-color-2: #bea815;
+  --accent-color-1: #385C66;
+  --accent-color-2: #374E91;
+  --accent-color-3: #0e2c7e;
+}
+
+.dark-mode {
+  --background-color: #000023;
+  --primary-color-1: #f08626;
+  --primary-color-2: #e13308;
+  --accent-color-1: #b4508d;
+  --accent-color-2: #830894;
+  --accent-color-3: #520684;
+}
+
+@font-face {
+  font-family: "Lexend";
+  src: url("/src/assets/fonts/Lexend-Bold.ttf");
+}
+.portifolio-game-list {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+.portifolio-game-list .portifolio-game-item-container {
+  position: relative;
+  padding-top: 1rem;
+  padding-bottom: 4rem;
+  width: 100%;
+  background-color: var(--background-color);
+  transform: scale(1);
+  transition: 0.3s ease-out;
+}
+.portifolio-game-list .portifolio-game-item-container:hover {
+  transform: scale(1.05);
+}
+.portifolio-game-list .portifolio-game-item-container:nth-child(even) {
+  background-color: var(--accent-color-3);
+}
+.portifolio-game-list .portifolio-game-item-container:nth-child(even) .curve {
+  transform: scaleY(-1) translateY(-1px);
+}
+.portifolio-game-list .portifolio-game-item-container:nth-child(even) .curve .shape-fill {
+  fill: var(--accent-color-3);
+}
+.portifolio-game-list .portifolio-game-item-container:nth-child(even)::before {
+  background-color: var(--accent-color-3);
+}
+.portifolio-game-list .portifolio-game-item-container:nth-child(even) .game {
+  flex-direction: row-reverse;
+  animation: portfolio-appear-animation-left 1s ease-in-out forwards;
+  animation-timeline: view();
+  animation-range: 0% 25%;
+}
+@keyframes portfolio-appear-animation-left {
+  from {
+    transform: translateX(-40%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+.portifolio-game-list .portifolio-game-item-container:nth-child(even) .game .text {
+  margin-left: 2rem;
+  margin-right: 0;
+}
+.portifolio-game-list .portifolio-game-item-container:nth-child(even) .game .text h3 {
+  color: var(--primary-color-1);
+  text-shadow: var(--accent-color-1) -0.04vmin 0.4vmin;
+}
+.portifolio-game-list .portifolio-game-item-container:nth-child(even) .game .text h4 {
+  color: var(--primary-color-2);
+}
+.portifolio-game-list .portifolio-game-item-container:nth-child(even) .game .image .image-wrapper {
+  border-radius: 0 1rem 1rem 0;
+}
+.portifolio-game-list .portifolio-game-item-container:nth-child(even) .game .image .image-wrapper h5 {
+  right: auto;
+  left: 0rem;
+  border-radius: 0 0.2rem 0.2rem 0;
+}
+.portifolio-game-list .portifolio-game-item-container:nth-child(even) .download-button:hover i {
+  color: var(--accent-color-3);
+}
+.portifolio-game-list .portifolio-game-item-container .curve {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg) translateY(-1px);
+  transform-origin: 50% 50%;
+}
+.portifolio-game-list .portifolio-game-item-container .curve svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 6vmin;
+}
+.portifolio-game-list .portifolio-game-item-container .curve .shape-fill {
+  fill: var(--background-color);
+}
+.portifolio-game-list .portifolio-game-item-container .game {
+  width: 90%;
+  margin: 1vh auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  animation: portfolio-appear-animation-right 1s ease-out forwards;
+  animation-timeline: view();
+  animation-range: 0% 25%;
+}
+@keyframes portfolio-appear-animation-right {
+  0% {
+    transform: translateX(40%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+.portifolio-game-list .portifolio-game-item-container .game .text {
+  margin-right: 2rem;
+  width: 100%;
+}
+.portifolio-game-list .portifolio-game-item-container .game .text h3 {
+  text-align: center;
+  color: var(--primary-color-1);
+  text-shadow: var(--accent-color-1) -0.04vmin 0.4vmin;
+  margin-bottom: 1rem;
+}
+.portifolio-game-list .portifolio-game-item-container .game .text h4 {
+  color: var(--accent-color-2);
+  text-align: justify;
+}
+.portifolio-game-list .portifolio-game-item-container .game .text .tags {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.portifolio-game-list .portifolio-game-item-container .game .text .tags h5 {
+  padding: 0.1rem 0.4rem;
+  border-radius: 2rem;
+  background-color: var(--accent-color-2);
+  color: var(--primary-color-1);
+}
+.portifolio-game-list .portifolio-game-item-container .game .text .tags h5:hover {
+  transform: scale(1.05);
+}
+.portifolio-game-list .portifolio-game-item-container .game .image {
+  position: relative;
+  width: 40vw;
+  display: flex;
+  align-items: center;
+}
+.portifolio-game-list .portifolio-game-item-container .game .image .image-wrapper {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4/3;
+  border-radius: 1rem;
+}
+.portifolio-game-list .portifolio-game-item-container .game .image .image-wrapper img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 1rem;
+}
+.portifolio-game-list .portifolio-game-item-container .game .image .image-wrapper h5 {
+  position: absolute;
+  right: 0rem;
+  bottom: 1rem;
+  padding: 0.1rem 0.5rem;
+  border-radius: 0.2rem 0 0 0.2rem;
+  background-color: var(--accent-color-2);
+  color: var(--primary-color-1);
+}
+.portifolio-game-list .portifolio-game-item-container .download-button {
+  position: relative;
+  width: max(15%, 10rem);
+  padding: 0.7rem 0;
+  margin: 1rem auto;
+  border: 0.5rem solid var(--primary-color-1);
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  box-shadow: -0.4rem 0.4rem var(--primary-color-2);
+  transition: 0.3s ease-out;
+}
+.portifolio-game-list .portifolio-game-item-container .download-button:hover {
+  transform: translateX(-0.3rem) translateY(0.3rem);
+  box-shadow: -0.1rem 0.1rem var(--primary-color-2);
+}
+.portifolio-game-list .portifolio-game-item-container .download-button i {
+  margin: auto auto;
+  font-size: 2rem;
+  z-index: 2;
+  color: var(--primary-color-1);
+  text-shadow: none;
+  transition: 0.3s ease-out;
+}
+.portifolio-game-list .portifolio-game-item-container .download-button .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: var(--primary-color-1);
+  transition: 0.3s ease-out;
+  transform: scaleY(0);
+  transform-origin: top;
+  padding: 1rem;
+}
+.portifolio-game-list .portifolio-game-item-container .download-button:hover .fill {
+  transform: scaleY(1);
+}
+.portifolio-game-list .portifolio-game-item-container .download-button:hover i {
+  color: var(--background-color);
+  text-shadow: 0rem 0.2rem var(--primary-color-2);
+}
+
+@media (max-width: 900px) {
+  .portifolio-game-list .portifolio-game-item-container:nth-child(even) .game {
+    flex-direction: column-reverse;
+  }
+  .portifolio-game-list .portifolio-game-item-container:nth-child(even) .game .text {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .portifolio-game-list .portifolio-game-item-container:nth-child(even) .game .text h3 {
+    text-align: center;
+  }
+  .portifolio-game-list .portifolio-game-item-container:nth-child(even) .game .text h4 {
+    text-align: center;
+  }
+  .portifolio-game-list .portifolio-game-item-container .game {
+    flex-direction: column-reverse;
+    gap: 1rem;
+  }
+  .portifolio-game-list .portifolio-game-item-container .game .text {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .portifolio-game-list .portifolio-game-item-container .game .text h3 {
+    text-align: center;
+  }
+  .portifolio-game-list .portifolio-game-item-container .game .text h4 {
+    text-align: center;
+  }
+  .portifolio-game-list .portifolio-game-item-container .game .image {
+    width: 90vw;
+  }
+  .portifolio-game-list .portifolio-game-item-container .game .image .image-wrapper {
+    aspect-ratio: 16/9;
+  }
+}/*# sourceMappingURL=PortfolioStyle.css.map */
