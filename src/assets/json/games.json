@@ -1,22 +1,22 @@
 {
     "games" : [
         {
-            "title" : "games.heirs-of-shadow.title",
-            "description" : "games.heirs-of-shadow.description",
-            "short-description" : "games.heirs-of-shadow.short-description",
-            "image" : "assets/images/game_thumbs/heirs_of_shadow.png",
+            "title" : "games.mecha-os.title",
+            "description" : "games.mecha-os.description",
+            "short-description" : "games.mecha-os.short-description",
+            "image" : "assets/images/game_thumbs/mecha_os.png",
             "url" : "",
-            "date" : "games.heirs-of-shadow.date",
-            "tags" : ["game-tags.unreal", "game-tags.pc", "game-tags.game-design", "game-tags.3d"]
+            "date" : "games.mecha-os.date",
+            "tags" : ["game-tags.unity", "game-tags.pc", "game-tags.vfs", "game-tags.3d", "game-tags.multiplayer", "game-tags.game-design", "game-tags.gameplay-engeneering", "game-tags.fmod", "game-tags.ui"]
         },
         {
-            "title" : "games.truck-game.title",
-            "description" : "games.truck-game.description",
-            "short-description" : "games.truck-game.short-description",
-            "image" : "assets/images/game_thumbs/truck_game.png",
-            "url" : "",
-            "date" : "games.truck-game.date",
-            "tags" : ["game-tags.unity", "game-tags.pc", "game-tags.game-design", "game-tags.3d", "game-tags.ui"]
+            "title" : "games.the-dust-o-mancer.title",
+            "description" : "games.the-dust-o-mancer.description",
+            "short-description" : "games.the-dust-o-mancer.short-description",
+            "image" : "assets/images/game_thumbs/the_dust_o_mancer.png",
+            "url" : "https://nox2004.itch.io/the-dust-o-mancer",
+            "date" : "games.the-dust-o-mancer.date",
+            "tags" : ["game-tags.unity", "game-tags.pc", "game-tags.vfs", "game-tags.3d", "game-tags.game-design", "game-tags.level-design", "game-tags.ui", "game-tags.fmod"]
         },
         {
             "title" : "games.toys-and-signs.title",

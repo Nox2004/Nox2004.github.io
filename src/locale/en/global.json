@@ -26,23 +26,23 @@
     },
     "games" : 
     {
-        "test" : {
+        "TEMPLATE" : {
             "title" : "Title",
             "description" : "description",
             "short-description" : "Mini-description",
             "date" : "May 2020"
         },
-        "heirs-of-shadow" : {
-            "title" : "Heirs of Shadow",
-            "description" : "The Heirs of Shadow project is a RPG game I'm working on with a group of alumni from my college. It's a Action RPG where you wil be able with 5 different characters, each one presenting completly different mechanics and its unique way to experience the game's world. It's a more ambitious project, still on development.",
-            "short-description" : "RPG",
-            "date" : "On Development"
+        "mecha-os" : {
+            "title" : "Mecha O.S.",
+            "description" : "Mecha O.S. is a assymetrical 2 player coop mech shooter game. Play as a duoo of pilot and engineer and deal with different responsabilities in order to survive hordes of hostile aliens. This game is under development by a team of 6 VFS students as a final project, where I am a gameplay designer and programmer, build master and audio implementer.",
+            "short-description" : "Mech Shooter with a twist",
+            "date" : "In Development"
         },
-        "truck-game" : {
-            "title" : "Not a Truck Game",
-            "description" : "'Not a truck game' (not a official name) is a horror game where you find yourself in the role of a truck driver making deliveries for a suspicious company, while trying to survive attacks from cryptids and other mysterious entities. I started working on this project with some friends around September 2024, and we'll put a Demo link below as soon as we have one to show.",
-            "short-description" : "Horror Game",
-            "date" : "On Development"
+        "the-dust-o-mancer" : {
+            "title" : "The Dust-o-Mancer",
+            "description" : "The Dust-o-Mancer is a PC game I worked on as a level Designer and programmer for my VFS Team Project. Play as a wizard and use your cleaning spells to clean up your angry furniture and see your house turn from a dirty mess into a sparkling paradise! The game was made in 2 months witha a team of 4 students.",
+            "short-description" : "Cleaning Shooter",
+            "date" : "July 2026"
         },
         "toys-and-signs" : {
             "title" : "Toys n' Signs",
@@ -160,11 +160,16 @@
         "console": "Console",
         "pc": "PC",
         "college" : "College",
+        "vfs" : "Vancouver Film School",
         "personal-project" : "Personal Project",
         "solo" : "Solo Dev",
         "3d" : "3D",
         "2d" : "2D",
-        "ui" : "UI"
+        "ui" : "UI programming",
+        "shading" : "Shading",
+        "vfx" : "VFX",
+        "fmod" : "FMOD",
+        "level-design" : "Level Design"
     },
     "resume" : {
         "message1" : "Resume",
@@ -213,10 +218,18 @@
             "title" : "Experience:",
             "experiences" : [
                 {
+                    "position" : "Game Design Program at VFS",
+                    "company" : "Vancouver Film School",
+                    "location" : "Vancouver, BC, Canada",
+                    "date" : "Dec 2025 - Present",
+                    "description" : "I am currently enrolled in the Game Design program at Vancouver Film School, where I am learning advanced game design principles, level design, and gameplay mechanics. The program is designed to provide a comprehensive understanding of the game development process, from concept to final product.",
+                    "icon" : "education"
+                },
+                {
                     "position" : "Junior Systems Analyst (Support Team)",
                     "company" : "Icaro Tech",
                     "location" : "Campinas, SP, Brazil",
-                    "date" : "Jan 2022 - Present",
+                    "date" : "Jan 2022 - Dec 2025",
                     "description" : "I have been working as a Junior Systems Analyst at Icaro Tech since 2022. Providing technical support to clients in the telecommunications field, addressing their system-related issues and inquiries.",
                     "icon" : "work"
                 },

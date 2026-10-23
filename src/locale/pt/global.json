@@ -26,23 +26,23 @@
     },
     "games" : 
     {
-        "test" : {
+        "TEMPLATE" : {
             "title" : "Titulo",
             "description" : "Descricao",
             "short-description" : "Mini-descricao",
             "date" : "Maio 2020"
         },
-        "heirs-of-shadow" : {
-            "title" : "Heirs of Shadow",
-            "description" : "O projeto Heirs of Shadow é um jogo de RPG no qual estou trabalhando com um grupo de ex-alunos da minha faculdade. É um RPG de ação onde você poderá jogar com 5 personagens diferentes, cada um apresentando mecânicas completamente diferentes e sua própria maneira de experimentar o mundo do jogo. É um projeto mais ambicioso, ainda em desenvolvimento.",
-            "short-description" : "RPG",
-            "date" : "Em Desenvolvimento"
+        "mecha-os" : {
+            "title" : "Mecha O.S.",
+            "description" : "Mecha O.S. é um jogo mech shooter, com coop assimetrico. Os jogadores assumem os papéis de piloto e engenheiro, lidando com responsabilidades distintas para sobreviver a hordas de alienígenas hostis. O jogo está sendo desenvolvido por uma equipe de seis estudantes da VFS como projeto final. Nele, atuo como designer e programador de gameplay, responsável pela compilação (build master) e implementador de áudio.",
+            "short-description" : "Mini-description",
+            "date" : "In Development"
         },
-        "truck-game" : {
-            "title" : "Not a Truck Game",
-            "description" : "O 'Not a Truck Game' (Não é um nome oficial) é um jogo de terror onde você se se encontra no papel de um caminhoneiro fazendo entregas para uma empresa suspeita, enquanto tenta sobreviver a ataques de criptídeos e outras entidades misteriosas. Comecei a trabalhar em este projeto com alguns amigos por volta de setembro de 2024, e colocaremos um link de Demo abaixo assim que tivermos uma para mostrar",
-            "short-description" : "Jogo de Terror",
-            "date" : "Em Desenvolvimento"
+        "the-dust-o-mancer" : {
+            "title" : "The Dust-o-Mancer",
+            "description" : "Dust-o-Mancer é um jogo para PC no qual trabalhei como designer de fases e programador, como parte de um projeto em equipe na VFS. Assuma o papel de um mago e utilize feitiços de limpeza para higienizar seus móveis — que, por sinal, estão bem irritados! Transforme sua casa, que antes era uma bagunça imunda, em um paraíso impecável. O jogo foi desenvolvido em 2 meses por uma equipe de 4 estudantes.",
+            "short-description" : "Cleaning Shooter",
+            "date" : "July 2026"
         },
         "toys-and-signs" : {
             "title" : "Toys n' Signs",
@@ -154,11 +154,16 @@
         "console": "Console",
         "pc": "PC",
         "college" : "Faculdade",
+        "vfs" : "Vancouver Film School",
         "personal-project" : "Projeto Pessoal",
         "solo" : "Desenvolvimento Solo",
         "3d" : "3D",
         "2d" : "2D",
-        "ui" : "UI"
+        "ui" : "Programação de UI",
+        "shading" : "Shading",
+        "vfx" : "VFX",
+        "fmod" : "FMOD",
+        "level-design" : "Level Design"    
     },
     "resume" : {
         "message1" : "Currículo",
@@ -207,10 +212,18 @@
             "title" : "Experiência:",
             "experiences" : [
                 {
+                    "position" : "Programa de Game Design na VFS",
+                    "company" : "Vancouver Film School",
+                    "location" : "Vancouver, BC, Canada",
+                    "date" : "Dec 2025 - Presente",
+                    "description" : "Atualmente, estou cursando o programa de Game Design na Vancouver Film School, onde aprendo princípios avançados de design de jogos, design de níveis e mecânicas de jogabilidade. O programa foi elaborado para proporcionar uma compreensão abrangente do processo de desenvolvimento de jogos, desde a concepção até o produto final.",
+                    "icon" : "education"
+                },
+                {
                     "position" : "Analista de Sistemas Junior (Equipe de Suporte)",
                     "company" : "Icaro Tech",
                     "location" : "Campinas, SP, Brasil",
-                    "date" : "Jan 2022 - Atualmente",
+                    "date" : "Jan 2022 - Dec 2025",
                     "description" : "Trabalho como Analista de Sistemas Júnior na Icaro Tech desde 2022. Prestando suporte técnico a clientes da área de telecomunicações, abordando seus problemas e dúvidas relacionados às ferramentas desenvolvidas pela Icaro.",
                     "icon" : "work"
                 },
