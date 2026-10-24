@@ -1,4 +1,4 @@
-import '/src/styles/GamePreviewGridStyle/GamePreviewGrid.css';
+import '/src/styles/GamePreviewGridStyle/GamePreviewGrid.scss';
 
 import { useTranslation } from 'react-i18next';
 

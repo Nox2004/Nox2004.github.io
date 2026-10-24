@@ -1,5 +1,5 @@
 import '/src/styles/MainPageStyle/MainPageStyle.css';
-import '/src/styles/GenericAnimationsStyle/GenericAnimationsStyle.css';
+import '/src/styles/GenericAnimationsStyle/GenericAnimationsStyle.scss';
 import GamePreviewGrid from './GamePreviewGrid'
 import * as gamesFile from '../assets/json/games.json';
 

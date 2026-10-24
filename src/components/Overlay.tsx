@@ -1,6 +1,6 @@
 import { useEffect, useState, useRef } from "react";
 
-import "/src/styles/OverlayStyle/OverlayStyle.css";
+import "/src/styles/OverlayStyle/OverlayStyle.scss";
 import { useTranslation } from "react-i18next";
 import { SupportedLanguages } from "../i18nConfig"
 

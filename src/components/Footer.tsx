@@ -1,4 +1,4 @@
-import '/src/styles/FooterStyle/FooterStyle.css';
+import '/src/styles/FooterStyle/FooterStyle.scss';
 import { useTranslation } from 'react-i18next';
 
 function Footer() {

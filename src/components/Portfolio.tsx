@@ -1,5 +1,5 @@
-import '/src/styles/PortfolioStyle/PortfolioStyle.css';
-import '/src/styles/GenericAnimationsStyle/GenericAnimationsStyle.css';
+import '/src/styles/PortfolioStyle/PortfolioStyle.scss';
+import '/src/styles/GenericAnimationsStyle/GenericAnimationsStyle.scss';
 import * as gamesFile from '../assets/json/games.json';
 
 import { useTranslation } from 'react-i18next';

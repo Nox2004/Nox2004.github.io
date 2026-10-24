@@ -1,4 +1,4 @@
-import '/src/styles/ResumeStyle/ResumeStyle.css';
+import '/src/styles/ResumeStyle/ResumeStyle.scss';
 
 import { useTranslation } from 'react-i18next';
 
