@@ -6,7 +6,7 @@ function GamePreviewGrid({games} : {games : {
     title: string;
     description: string;
     "short-description": string;
-    image: string;
+    media: string[];
     url: string;
     date: string;
 }[]}) 
@@ -18,7 +18,13 @@ function GamePreviewGrid({games} : {games : {
             {
                 games.map((game) => (
                     <a href={game.url} target="_blank" className="GamePreviewContainer">
-                        <img src={game.image} />
+                        {
+                            game.media[0].endsWith('.mp4') ?
+                                <video src={game.media[0]} autoPlay loop muted playsInline />
+                            :
+                                <img src={game.media[0]} />
+                        }
+                        
                         <div className="GamePreviewText"><h4>{t(game.title)}</h4> <h5>{t(game['short-description'])}</h5></div>
                     </a>
                 ))

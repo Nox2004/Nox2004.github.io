@@ -1,4 +1,3 @@
-
 @import '../StyleVariables/StyleVariables';
 
 .GamePreviewGrid 
@@ -66,17 +65,16 @@
   align-items: center;
 
   overflow: hidden;
-  img
+
+  // Handles both images and autoplaying videos cleanly inside SCSS nesting
+  img, video
   {
-    display:block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  //   position: absolute;
-  //   width : 100%;
-  //   height : 100%;
-  //   object-fit: cover;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
+
   .GamePreviewText
   {
     position: absolute;
@@ -113,10 +111,10 @@
       margin-block-end: 0;
     }
   }
-  .GamePreviewText:hover 
+
+  &:hover .GamePreviewText 
   {
     opacity: 1;
     transform: translateY(0%);
   }
 }
-
