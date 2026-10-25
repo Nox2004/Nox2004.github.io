@@ -112,7 +112,7 @@
             "title" : "games.sinuca-attack.title",
             "description" : "games.sinuca-attack.description",
             "short-description" : "games.sinuca-attack.short-description",
-            "media" : ["assets/images/game_media/SinucaAttackJam/Screenshot_01.png"],
+            "media" : ["assets/images/game_media/SinucaAttackJam/Video_01.mp4", "assets/images/game_media/SinucaAttackJam/Screenshot_01.png", "assets/images/game_media/SinucaAttackJam/Screenshot_02.png", "assets/images/game_media/SinucaAttackJam/Screenshot_03.png", "assets/images/game_media/SinucaAttackJam/Screenshot_04.png"],
             "url" : "https://gamejolt.com/games/sinuca_attack/477646",
             "date" : "games.sinuca-attack.date",
             "tags" : ["game-tags.gamemaker", "game-tags.pc", "game-tags.game-jam", "game-tags.game-design", "game-tags.gameplay-engeneering"]
