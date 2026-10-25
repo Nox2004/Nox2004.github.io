@@ -103,7 +103,7 @@
             "title" : "games.sinuca-attack-console.title",
             "description" : "games.sinuca-attack-console.description",
             "short-description" : "games.sinuca-attack-console.short-description",
-            "media" : ["assets/images/game_media/SinucaAttackConsole/Screenshot_01.png"],
+            "media" : ["assets/images/game_media/SinucaAttackConsole/Video_01.mp4", "assets/images/game_media/SinucaAttackConsole/Screenshot_01.png", "assets/images/game_media/SinucaAttackConsole/Screenshot_02.png", "assets/images/game_media/SinucaAttackConsole/Screenshot_03.png"],
             "url" : "https://store.playstation.com/pt-br/product/UP2005-PPSA06054_00-SINUCA0000000000",
             "date" : "games.sinuca-attack-console.date",
             "tags" : ["game-tags.gamemaker", "game-tags.console", "game-tags.game-design"]
