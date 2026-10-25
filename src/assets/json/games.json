@@ -4,7 +4,7 @@
             "title" : "games.mecha-os.title",
             "description" : "games.mecha-os.description",
             "short-description" : "games.mecha-os.short-description",
-            "media" : ["assets/images/game_media/MechaOS/Screenshot_01.png"],
+            "media" : ["assets/images/game_media/MechaOS/Video_01.mp4","assets/images/game_media/MechaOS/Screenshot_01.png","assets/images/game_media/MechaOS/Screenshot_02.png","assets/images/game_media/MechaOS/Screenshot_03.png","assets/images/game_media/MechaOS/Screenshot_04.png"],
             "url" : "",
             "date" : "games.mecha-os.date",
             "tags" : ["game-tags.unity", "game-tags.pc", "game-tags.vfs", "game-tags.3d", "game-tags.multiplayer", "game-tags.game-design", "game-tags.gameplay-engeneering", "game-tags.fmod", "game-tags.ui"]
