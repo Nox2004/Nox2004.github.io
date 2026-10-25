@@ -49,7 +49,7 @@
             "title" : "games.roll-your-life.title",
             "description" : "games.roll-your-life.description",
             "short-description" : "games.roll-your-life.short-description",
-            "media" : ["assets/images/game_media/RollYourLife/Screenshot_01.png"],
+            "media" : ["assets/images/game_media/RollYourLife/Video_01.mp4", "assets/images/game_media/RollYourLife/Screenshot_01.png", "assets/images/game_media/RollYourLife/Screenshot_02.png", "assets/images/game_media/RollYourLife/Screenshot_03.png", "assets/images/game_media/RollYourLife/Screenshot_04.png"],
             "url" : "https://bob-the-game-dev.itch.io/roll-your-life",
             "date" : "games.roll-your-life.date",
             "tags" : ["game-tags.gamemaker", "game-tags.pc", "game-tags.game-jam", "game-tags.game-design", "game-tags.ui"]
