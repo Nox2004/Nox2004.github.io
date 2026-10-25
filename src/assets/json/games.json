@@ -58,7 +58,7 @@
             "title" : "games.my-happy-planet.title",
             "description" : "games.my-happy-planet.description",
             "short-description" : "games.my-happy-planet.short-description",
-            "media" : ["assets/images/game_media/MyHappyPlanet/Screenshot_01.png"],
+            "media" : ["assets/images/game_media/MyHappyPlanet/Video_01.mp4", "assets/images/game_media/MyHappyPlanet/Screenshot_01.png", "assets/images/game_media/MyHappyPlanet/Screenshot_02.png", "assets/images/game_media/MyHappyPlanet/Screenshot_03.png", "assets/images/game_media/MyHappyPlanet/Screenshot_04.png", "assets/images/game_media/MyHappyPlanet/Screenshot_05.png"],
             "url" : "https://nox2004.itch.io/my-happy-planet",
             "date" : "games.my-happy-planet.date",
             "tags" : ["game-tags.unity", "game-tags.pc", "game-tags.college", "game-tags.educational", "game-tags.3d"]
