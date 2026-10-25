@@ -85,7 +85,7 @@
             "title" : "games.space-invaders-3-0.title",
             "description" : "games.space-invaders-3-0.description",
             "short-description" : "games.space-invaders-3-0.short-description",
-            "media" : ["assets/images/game_media/SpaceInvaders3/Screenshot_01.png"],
+            "media" : ["assets/images/game_media/SpaceInvaders3/Video_01.mp4", "assets/images/game_media/SpaceInvaders3/Screenshot_01.png", "assets/images/game_media/SpaceInvaders3/Screenshot_02.png", "assets/images/game_media/SpaceInvaders3/Screenshot_03.png", "assets/images/game_media/SpaceInvaders3/Screenshot_04.png"],
             "url" : "https://gamejolt.com/games/space_invaders_3/607792",
             "date" : "games.space-invaders-3-0.date",
             "tags" : ["game-tags.gamemaker", "game-tags.pc", "game-tags.personal-project", "game-tags.solo", "game-tags.gameplay-engeneering"]
