@@ -76,7 +76,7 @@
             "title" : "games.drinking-water-midnight.title",
             "description" : "games.drinking-water-midnight.description",
             "short-description" : "games.drinking-water-midnight.short-description",
-            "media" : ["assets/images/game_media/DrinkingWater/Screenshot_01.png"],
+            "media" : ["assets/images/game_media/DrinkingWater/Video_01.mp4", "assets/images/game_media/DrinkingWater/Screenshot_01.png", "assets/images/game_media/DrinkingWater/Screenshot_02.png", "assets/images/game_media/DrinkingWater/Screenshot_03.png", "assets/images/game_media/DrinkingWater/Screenshot_04.png", "assets/images/game_media/DrinkingWater/Screenshot_05.png"],
             "url" : "https://gamejolt.com/games/meia_noite/660730",
             "date" : "games.drinking-water-midnight.date",
             "tags" : ["game-tags.gamemaker", "game-tags.pc", "game-tags.personal-project", "game-tags.solo"]
