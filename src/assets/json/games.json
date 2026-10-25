@@ -67,7 +67,7 @@
             "title" : "games.hey-brother.title",
             "description" : "games.hey-brother.description",
             "short-description" : "games.hey-brother.short-description",
-            "media" : ["assets/images/game_media/HeyBrother/Screenshot_01.png"],
+            "media" : ["assets/images/game_media/HeyBrother/Video_01.mp4", "assets/images/game_media/HeyBrother/Screenshot_01.png", "assets/images/game_media/HeyBrother/Screenshot_02.png", "assets/images/game_media/HeyBrother/Screenshot_03.png", "assets/images/game_media/HeyBrother/Screenshot_04.png", "assets/images/game_media/HeyBrother/Screenshot_05.png"],
             "url" : "https://bob-the-game-dev.itch.io/hey-brother",
             "date" : "games.hey-brother.date",
             "tags" : ["game-tags.gamemaker", "game-tags.pc", "game-tags.game-jam", "game-tags.game-design", "game-tags.gameplay-engeneering"]
