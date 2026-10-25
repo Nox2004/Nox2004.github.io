@@ -22,7 +22,7 @@
             "title" : "games.toys-and-signs.title",
             "description" : "games.toys-and-signs.description",
             "short-description" : "games.toys-and-signs.short-description",
-            "media" : ["assets/images/game_media/ToysAndSigns/Screenshot_01.png"],
+            "media" : ["assets/images/game_media/ToysAndSigns/Video_01.mp4","assets/images/game_media/ToysAndSigns/Screenshot_01.png","assets/images/game_media/ToysAndSigns/Screenshot_02.png"],
             "url" : "https://nox2004.itch.io/toys-n-signs",
             "date" : "games.toys-and-signs.date",
             "tags" : ["game-tags.unity", "game-tags.mobile", "game-tags.college", "game-tags.educational", "game-tags.3d", "game-tags.ui"]
