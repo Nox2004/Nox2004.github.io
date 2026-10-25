@@ -13,7 +13,7 @@
             "title" : "games.the-dust-o-mancer.title",
             "description" : "games.the-dust-o-mancer.description",
             "short-description" : "games.the-dust-o-mancer.short-description",
-            "media" : ["assets/images/game_media/TheDustOMancer/Video_01.mp4","assets/images/game_media/TheDustOMancer/Screenshot_01.png"],
+            "media" : ["assets/images/game_media/TheDustOMancer/Video_01.mp4","assets/images/game_media/TheDustOMancer/Screenshot_01.png","assets/images/game_media/TheDustOMancer/Screenshot_02.png","assets/images/game_media/TheDustOMancer/Screenshot_03.png","assets/images/game_media/TheDustOMancer/Screenshot_04.png"],
             "url" : "https://nox2004.itch.io/the-dust-o-mancer",
             "date" : "games.the-dust-o-mancer.date",
             "tags" : ["game-tags.unity", "game-tags.pc", "game-tags.vfs", "game-tags.3d", "game-tags.game-design", "game-tags.level-design", "game-tags.ui", "game-tags.fmod"]
