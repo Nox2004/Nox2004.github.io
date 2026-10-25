@@ -63,9 +63,9 @@ function GameCard({ game, t }: GameCardProps)
                 <div className="image">
                     <div className="image-wrapper">
                         {isVideo ? (
-                            <video src={currentMedia} autoPlay loop muted playsInline />
+                            <video src={currentMedia} autoPlay loop muted playsInline preload="metadata" />
                         ) : (
-                            <img src={currentMedia} alt={t(game.title)} />
+                            <img src={currentMedia} alt={t(game.title)} loading="lazy" />
                         )}
 
                         {mediaList.length > 1 && (

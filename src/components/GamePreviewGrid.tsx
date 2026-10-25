@@ -20,9 +20,9 @@ function GamePreviewGrid({games} : {games : {
                     <a href={game.url} target="_blank" className="GamePreviewContainer">
                         {
                             game.media[0].endsWith('.mp4') ?
-                                <video src={game.media[0]} autoPlay loop muted playsInline />
+                                <video src={game.media[0]} autoPlay loop muted playsInline preload="metadata" />
                             :
-                                <img src={game.media[0]} />
+                                <img src={game.media[0]} loading="lazy" alt={t(game.title)}  />
                         }
                         
                         <div className="GamePreviewText"><h4>{t(game.title)}</h4> <h5>{t(game['short-description'])}</h5></div>
