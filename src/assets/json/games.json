@@ -31,7 +31,7 @@
             "title" : "games.nuts-and-bolts.title",
             "description" : "games.nuts-and-bolts.description",
             "short-description" : "games.nuts-and-bolts.short-description",
-            "media" : ["assets/images/game_media/NutsAndBolts/Screenshot_01.png"],
+            "media" : ["assets/images/game_media/NutsAndBolts/Video_00.mp4","assets/images/game_media/NutsAndBolts/Screenshot_01.png","assets/images/game_media/NutsAndBolts/Screenshot_02.png","assets/images/game_media/NutsAndBolts/Screenshot_03.png","assets/images/game_media/NutsAndBolts/Screenshot_04.png"],
             "url" : "https://drive.google.com/uc?export=download&id=1mfeHY_JvrvyvI6speXT73wM3xRe72yi2",
             "date" : "games.nuts-and-bolts.date",
             "tags" : ["game-tags.unity", "game-tags.pc", "game-tags.college", "game-tags.multiplayer", "game-tags.ui"]
