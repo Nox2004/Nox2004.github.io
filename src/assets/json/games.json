@@ -94,7 +94,7 @@
             "title" : "games.the-unknown.title",
             "description" : "games.the-unknown.description",
             "short-description" : "games.the-unknown.short-description",
-            "media" : ["assets/images/game_media/TheUnknown/Screenshot_01.png"],
+            "media" : ["assets/images/game_media/TheUnknown/Video_01.mp4", "assets/images/game_media/TheUnknown/Screenshot_01.png", "assets/images/game_media/TheUnknown/Screenshot_02.png", "assets/images/game_media/TheUnknown/Screenshot_03.png", "assets/images/game_media/TheUnknown/Screenshot_04.png", "assets/images/game_media/TheUnknown/Screenshot_05.png"],
             "url" : "https://gamejolt.com/games/desconhecido/571638",
             "date" : "games.the-unknown.date",
             "tags" : ["game-tags.gamemaker", "game-tags.pc", "game-tags.game-jam", "game-tags.game-design", "game-tags.ui"]
