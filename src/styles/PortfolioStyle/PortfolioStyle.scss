@@ -74,8 +74,6 @@
                 {
                     .image-wrapper
                     {
-                        border-radius: 0 1rem 1rem 0;
-
                         h5 
                         {
                             right: auto;
@@ -198,7 +196,43 @@
                     aspect-ratio: 4/3;
                     
                     border-radius: 1rem;
+                    overflow: hidden; // Ensures the loader stays inside the rounded corners
+                    
+                    // Loading Overlay Style
+                    .media-loader 
+                    {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+                        background-color: color-mix(in srgb, var(--accent-color-2) 75%, transparent);
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        z-index: 3;
+                        color: var(--primary-color-1);
+                        font-family: var(--font-family);
+                        gap: 0.5rem;
 
+                        // Simple spinning loader animation
+                        .spinner {
+                            width: 40px;
+                            height: 40px;
+                            border: 4px solid var(--accent-color-3);
+                            border-top: 4px solid var(--primary-color-1);
+                            border-radius: 50%;
+                            animation: spin 1s linear infinite;
+                        }
+
+                        p {
+                            font-size: 0.9rem;
+                            font-weight: bold;
+                            margin: 0;
+                        }
+                    }
+                    
                     // Handles both images and videos smoothly without zooming/stretching
                     img, video
                     {
@@ -220,6 +254,9 @@
                         z-index: 2;
                         padding: 6px;
                         transition: transform 0.2s ease, color 0.2s ease;
+
+                        border-radius: inherit;
+                        overflow: hidden;
 
                         i {
                             font-size: 1.8rem;
@@ -383,4 +420,9 @@
             }
         }
     }
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
 }
