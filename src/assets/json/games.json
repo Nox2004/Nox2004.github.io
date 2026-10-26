@@ -121,7 +121,7 @@
             "title" : "games.evolutron.title",
             "description" : "games.evolutron.description",
             "short-description" : "games.evolutron.short-description",
-            "media" : ["assets/images/game_media/Evolutron/Screenshot_01.png"],
+            "media" : ["assets/images/game_media/Evolutron/Video_01.mp4", "assets/images/game_media/Evolutron/Screenshot_01.png", "assets/images/game_media/Evolutron/Screenshot_02.png", "assets/images/game_media/Evolutron/Screenshot_03.png", "assets/images/game_media/Evolutron/Screenshot_04.png"],
             "url" : "https://gamejolt.com/games/EvolutronRevolution/513907",
             "date" : "games.evolutron.date",
             "tags" : ["game-tags.gamemaker", "game-tags.pc", "game-tags.game-jam", "game-tags.game-design", "game-tags.procedural-generation"]
