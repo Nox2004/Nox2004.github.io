@@ -243,6 +243,43 @@
                         display: block;
                     }
 
+                    .carousel-dots {
+                        position: absolute;
+                        bottom: 1rem;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        display: flex;
+                        gap: 8px;
+                        z-index: 2;
+                        background: color-mix(in srgb, rgb(43, 43, 43) 30%, transparent);
+                        padding: 6px 10px;
+                        border-radius: 20px;
+                        backdrop-filter: blur(1px);
+
+                        .carousel-dot {
+                            width: 10px;
+                            height: 10px;
+                            border-radius: 50%;
+                            border: none;
+                            background-color: var(white);
+                            opacity: 0.9;
+                            cursor: pointer;
+                            padding: 0;
+                            transition: transform 0.2s ease, opacity 0.2s ease, background-color 0.2s ease;
+
+                            &:hover {
+                                opacity: 1;
+                                transform: scale(1.2);
+                            }
+
+                            &.active {
+                                opacity: 1;
+                                background-color: var(--primary-color-1);
+                                transform: scale(1.25);
+                            }
+                        }
+                    }
+
                     // Carousel Arrow Buttons Styling
                     .carousel-arrow {
                         position: absolute;
@@ -286,7 +323,7 @@
                     {
                         position: absolute;
                         right: 0rem;
-                        bottom: 1rem;
+                        top: 1rem;
                         padding: 0.1rem 0.5rem;
 
                         border-radius : 0.2rem 0 0 0.2rem;
@@ -360,6 +397,7 @@
             }
         }
     }
+    
 }
 
 @media (max-width: 900px) {
