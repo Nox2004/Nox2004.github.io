@@ -148,7 +148,7 @@
             "title" : "games.flappy-penguin.title",
             "description" : "games.flappy-penguin.description",
             "short-description" : "games.flappy-penguin.short-description",
-            "media" : ["assets/images/game_media/FlappyPenguin/Screenshot_01.png"],
+            "media" : ["assets/images/game_media/FlappyPenguin/Video_01.mp4", "assets/images/game_media/FlappyPenguin/Screenshot_01.png", "assets/images/game_media/FlappyPenguin/Screenshot_02.png", "assets/images/game_media/FlappyPenguin/Screenshot_03.png"],
             "url" : "https://drive.google.com/uc?export=download&id=1tn4hvCtLiw8Hjdx8sQjJpSRf5N4n0-cN",
             "date" : "games.flappy-penguin.date",
             "tags" : ["game-tags.gamemaker", "game-tags.pc", "game-tags.personal-project", "game-tags.solo"]
