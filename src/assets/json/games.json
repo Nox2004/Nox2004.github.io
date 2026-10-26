@@ -130,7 +130,7 @@
             "title" : "games.space-invaders-2.title",
             "description" : "games.space-invaders-2.description",
             "short-description" : "games.space-invaders-2.short-description",
-            "media" : ["assets/images/game_media/SpaceInvaders2/Screenshot_01.png"],
+            "media" : ["assets/images/game_media/SpaceInvaders2/Video_01.mp4"],
             "url" : "https://drive.google.com/uc?export=download&id=1N5OLF6JvYuG0GSExFafr3vIj2M0ghFKA",
             "date" : "games.space-invaders-2.date",
             "tags" : ["game-tags.gamemaker", "game-tags.pc", "game-tags.personal-project", "game-tags.solo"]
