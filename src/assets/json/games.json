@@ -139,7 +139,7 @@
             "title" : "games.31-days-after.title",
             "description" : "games.31-days-after.description",
             "short-description" : "games.31-days-after.short-description",
-            "media" : ["assets/images/game_media/31Days/Screenshot_01.png"],
+            "media" : ["assets/images/game_media/31Days/Video_01.mp4", "assets/images/game_media/31Days/Screenshot_01.png", "assets/images/game_media/31Days/Screenshot_02.png", "assets/images/game_media/31Days/Screenshot_03.png"],
             "url" : "https://gamejolt.com/games/31DaysAfterTheEndOfTheWorld/427822",
             "date" : "games.31-days-after.date",
             "tags" : ["game-tags.gamemaker", "game-tags.pc", "game-tags.game-jam", "game-tags.game-design", "game-tags.solo"]
